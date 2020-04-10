@@ -1,0 +1,21 @@
+Instance: Holiday Music
+
+Attributes:
+playlistName: "Easter 2019 Playlist"
+playing: "false"
+trackList (Track1: 2:40, Track2: 3:24, Track3: 3:00, etc"
+volume: "4.0"
+
+Methods:
+setPlaylistName
+Change playlistName to "Easter 2020 Playlist"
+
+musicPlaying
+Set playing to "true" to turn on music
+
+modifyPlaylist
+Remove "Track2: 3:24" from "tracklist" hash
+Add "Track20: 4:00" from "tracklist" hash
+
+adjustVolume
+adjustVolume = volume + 2.5
