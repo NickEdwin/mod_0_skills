@@ -1,0 +1,13 @@
+Class: Playlist
+
+Attributes:
+playlistName (string)
+playing (boolean)
+trackList (hash)
+volume (float)
+
+Methods:
+setPlaylistName (changes "playlistName")
+musicPlaying (changes "playing" boolean to true or false for on/off)
+modifyPlaylist (changes the "trackList" hash to add or remove songs)
+adjustVolume (increases or decreases volume level)
