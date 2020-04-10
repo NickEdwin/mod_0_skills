@@ -1,0 +1,13 @@
+Class: Menu
+
+Attributes:
+appetizers (hash)
+items (boolean)
+pages (integer)
+color (string)
+
+Methods:
+appetizerList (modifies the "appetizers" hash with new items (key) and prices (value))
+itemsAvailable (modifies the "items" status to true or false for availability)
+numberOfPages (modifies the number of "pages" based on menu size)
+colorChange (modifies the menu's color to fit needs)
