@@ -2,20 +2,20 @@ Instance: Holiday Music
 
 Attributes:
 playlistName: "Easter 2019 Playlist"
-playing: "false"
+isRadioOn: false
 trackList (Track1: 2:40, Track2: 3:24, Track3: 3:00, etc"
-volume: "4.0"
+currentVolume: 4.0
 
 Methods:
 setPlaylistName
 Change playlistName to "Easter 2020 Playlist"
 
-musicPlaying
-Set playing to "true" to turn on music
+changePowerStatus
+Set to "true" to turn on music
 
 modifyPlaylist
-Remove "Track2: 3:24" from "tracklist" hash
-Add "Track20: 4:00" from "tracklist" hash
+Remove "Track2: 3:24" from "trackList" hash
+Add "Track20: 4:00" from "trackList" hash
 
 adjustVolume
-adjustVolume = volume + 2.5
+adjustVolume = currentVolume + 2.5
