@@ -1,20 +1,20 @@
 Instance: Easter Lunch Menu
 
 Attributes:
-appetizers: (Item1: 4.99, Item2: 9.99, Item3: 5.50, etc)
-items: true  (all items available)
-pages: 2
-color: "blue"
+appetizerList: (Item1: 4.99, Item2: 9.99, Item3: 5.50, etc)
+isItemAvailable: true (default for all items as they are available)
+numberOfPages: 2
+defaultMenuColor: "blue"
 
 Methods:
-appetizerList
+modifyAppetizerList
 Add "Item4: 12.50" to appetizers hash
 
-itemsAvailable
+changeItemAvailability
 Set "Item2: 9.99" = "false" (due to it being sold out)
 
-numberOfPages
-Set to "3" (to accommodate more items)
+adjustNumberOfPages
+adjustNumberOfPages = numberOfPages + 1 (to accommodate more items)
 
-colorChange
-Set to "yellow"
+changeMenuColor
+defaultMenuColor = "yellow"
