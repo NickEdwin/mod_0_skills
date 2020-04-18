@@ -2,12 +2,12 @@ Class: Playlist
 
 Attributes:
 playlistName (string)
-playing (boolean)
+isRadioOn (boolean)
 trackList (hash)
-volume (float)
+currentVolume (float)
 
 Methods:
 setPlaylistName (changes "playlistName")
-musicPlaying (changes "playing" boolean to true or false for on/off)
+changePowerStatus (changes "isRadioOn" boolean to true or false for on/off)
 modifyPlaylist (changes the "trackList" hash to add or remove songs)
-adjustVolume (increases or decreases volume level)
+adjustVolume (increases or decreases "currentVolume" level)
