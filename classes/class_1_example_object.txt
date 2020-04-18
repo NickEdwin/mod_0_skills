@@ -17,4 +17,4 @@ adjustNumberOfPages
 adjustNumberOfPages = numberOfPages + 1 (to accommodate more items)
 
 changeMenuColor
-defaultMenuColor = "yellow"
+= "yellow" (to change defaultMenuColor)
